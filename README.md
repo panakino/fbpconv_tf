@@ -1,4 +1,4 @@
-# FBPConvNet 
+# FBPConvNet - tensorflow
 http://ieeexplore.ieee.org/document/7949028/
 
 This is tensorflow implementation for ``Deep Convolutional Neural Network for Inverse Problems in Imaging, TIP (2017)``.
