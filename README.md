@@ -26,7 +26,7 @@ Whole codes are forked and modified from https://github.com/jakeret/tf_unet.
 ## Commands
 Before starting,
 ```bash
-pip install pillow matplotlib scipy scikit-image
+pip install pillow matplotlib scipy scikit-image h5py
 ```
 
 To start training a model for FBPConvNet:
