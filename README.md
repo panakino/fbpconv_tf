@@ -12,22 +12,28 @@ Whole codes are forked and modified from https://github.com/jakeret/tf_unet.
 * MacOS X 10.12.6
 * Python 2.7.12
 
-## Data (ellipsoids, downsampling factor : x 20)
+## Data - XYCN format (ellipsoids, downsampling factor : x 20)
 * train : https://drive.google.com/open?id=1FTOgM2vOQaGSokEDtOaPNdBTto6h5yFi
 * test : https://drive.google.com/open?id=1w_kPao6L2UwhTKIgcr_3o62A6vYYtX_r
+* If you want to make fbp images, you can find file_generator in tf_unet/layers.py (load_whole_data function.)
 
 ### illustration
 ![alt tag](https://github.com/panakino/fbpconv_tf/blob/master/structure.png)
 
 ## Commands
+Before starting,
+```bash
+pip install pillow matplotlib scipy scikit-image
+```
+
 To start training a model for FBPConvNet:
 ```bash
-python main.py --lr=1e-4 --output_path='logs/' --features_root=32 --layers=5 
+python main.py --lr=1e-4 --output_path='logs/' --train_path='train_data/*.mat' --test_path='test_data/*.mat' --features_root=32 --layers=5 
 ```
 
 To deploy trained model:
 ```bash
-python main.py --lr=1e-4 --output_path='logs/' --features_root=32 --layers=5 --is_training=False
+python main.py --lr=1e-4 --output_path='logs/' --train_path='train_data/*.mat' --test_path='test_data/*.mat' --features_root=32 --layers=5 --is_training=False
 ```
 
 You may find more details in main.py.
