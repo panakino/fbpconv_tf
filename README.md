@@ -17,7 +17,7 @@ Whole codes are forked and modified from https://github.com/jakeret/tf_unet.
 * test : https://drive.google.com/open?id=1w_kPao6L2UwhTKIgcr_3o62A6vYYtX_r
 
 ### illustration
-![alt tag](https://github.com/panakino/3dbpconv/blob/master/structure.png)
+![alt tag](https://github.com/panakino/fbpconv_tf/blob/master/structure.png)
 
 ## Commands
 To start training a model for FBPConvNet:
