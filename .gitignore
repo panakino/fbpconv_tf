@@ -1,0 +1,7 @@
+logs/
+*.pyc
+*/*.pyc
+prediction/
+*.rst
+test_data/
+train_data/
