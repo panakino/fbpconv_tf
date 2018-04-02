@@ -1,7 +1,7 @@
 # FBPConvNet 
 http://ieeexplore.ieee.org/document/7949028/
 
-This is tensorflow implementation for ``Deep Convolutional Neural Network for Inverse Problems in Imaging``, TIP (2017).
+This is tensorflow implementation for ``Deep Convolutional Neural Network for Inverse Problems in Imaging, TIP (2017)``.
 2D sparse-view CT reconstruction and reconstruction of accelerated MRI. 
 
 Whole codes are forked and modified from https://github.com/jakeret/tf_unet.
