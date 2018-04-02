@@ -2,7 +2,10 @@
 http://ieeexplore.ieee.org/document/7949028/
 
 This is tensorflow implementation for ``Deep Convolutional Neural Network for Inverse Problems in Imaging, TIP (2017)``.
-2D sparse-view CT reconstruction and reconstruction of accelerated MRI. 
+- applications (forward model with shift-invariant normal operator):
+* 2D sparse-view CT reconstruction 
+* reconstruction of accelerated MRI
+* Deconvolution of shift-invariant
 
 Whole codes are forked and modified from https://github.com/jakeret/tf_unet.
 
